@@ -1,0 +1,39 @@
+.card__item__line {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-bottom: 15px;
+}
+
+.card__item__line:hover {
+  transform: scale(1.04);
+  color: #313131;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card__item__apdex {
+  color: #4a4a4a;
+  flex-basis: 10%;
+  max-width: 40px;
+  opacity: 0.62;
+  font-size: 13px;
+  font-family: 'Helvetica Neue Bold';
+  line-height: 19px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.card__item__name {
+  flex-basis: 90%;
+  color: #4a4a4a;
+  font-size: 16px;
+  font-family: 'Helvetica Neue';
+  line-height: 19px;
+  display: inline;
+  text-align: left;
+}

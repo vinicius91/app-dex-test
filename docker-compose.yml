@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  new-relic-apdex:
+    container_name: new-relic-apdex
+    build:
+      context: .
+    volumes:
+      - ".:/usr/src/app"
+    ports:
+      - '8888:8080'
+

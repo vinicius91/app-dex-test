@@ -1,0 +1,9 @@
+{
+  "fileServerFolder": "output/dist",
+  "integrationFolder": "tests",
+  "fixturesFolder": "tests/fixtures",
+  "pluginsFile": false,
+  "supportFile": false,
+  "video": false,
+  "screenshotsFolder": "tests/screenshots"
+}

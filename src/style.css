@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica-Neue'), url('./assets/fonts/HelveticaNeueLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Helvetica-Neue-Bold'), url('./assets/fonts/HelveticaNeueBold.woff') format('woff');
+}
+
+body {
+  background: #f7f7f9;
+}
+
+.container {
+  margin: auto;
+  max-width: 840px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}

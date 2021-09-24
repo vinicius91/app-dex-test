@@ -1,0 +1,62 @@
+.center {
+  margin: auto;
+}
+
+.loadContainer {
+  height: 35px;
+  width: 35px;
+  float: left;
+}
+
+.loadWrapper {
+  margin-top: 30%;
+}
+
+.loading__label {
+  font: 'Helvetica Neue Bold';
+  font-size: 35px;
+  font-weight: bold;
+  color: #313131;
+  padding-left: 16px;
+}
+
+.loader2 {
+  border-top: 3px solid #00727c;
+  border-bottom: 3px solid #008c99;
+  border-radius: 50%;
+  height: 14px;
+  width: 15px;
+  margin: 10px;
+  position: absolute;
+  animation: loading 1.2s infinite linear;
+}
+
+.loader3 {
+  border-left: 3px solid #008c99;
+  border-right: 3px solid #008c99;
+  border-radius: 50%;
+  height: 24px;
+  width: 25px;
+  margin: 8px 2px;
+  position: absolute;
+  animation: loading 1s infinite linear;
+}
+
+.loader4 {
+  border-top: 3px solid #70ccd3;
+  border-bottom: 3px solid #70ccd3;
+  border-radius: 50%;
+  height: 34px;
+  width: 35px;
+  position: absolute;
+  animation: loading 0.8s infinite linear;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

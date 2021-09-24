@@ -1,0 +1,7 @@
+.subtitle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow: hidden;
+}

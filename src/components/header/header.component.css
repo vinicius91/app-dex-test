@@ -1,0 +1,9 @@
+.header {
+  flex-basis: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 30px;
+  overflow: hidden;
+}

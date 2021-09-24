@@ -1,0 +1,18 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  },
+  "globals": {
+    "describe": "readonly",
+    "it": "readonly",
+    "cy": "readonly",
+    "context": "readonly",
+    "expect": "readonly",
+    "add": "readonly",
+    "document": "readonly",
+    "alert": "readonly",
+    "fetch": "readonly"
+  }
+}

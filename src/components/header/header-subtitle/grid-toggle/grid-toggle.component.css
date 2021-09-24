@@ -1,0 +1,9 @@
+.checkbox__wrapper {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Helvetica Neue';
+  line-height: 22px;
+  vertical-align: bottom;
+  white-space: nowrap;
+  margin: 0px 5px 0px 30px;
+}
